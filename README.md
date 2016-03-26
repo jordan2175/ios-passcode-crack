@@ -6,9 +6,9 @@ To find your forgotten passcode on iOS, do the following:
 
 1. Backup your device on your Mac, make sure to use a Non-Encrypted backup
 2. Navicate to this directory on the filesystem:
-..*	> cd /Users/<username>/Library/Application Support/MobileSync/Backup/<latest backup folder>
+   > cd /Users/<username>/Library/Application Support/MobileSync/Backup/<latest backup folder>
 3. Open or cat the following file
-..*	> cat 398bc9c2aeeab4cb0c12ada0f52eea12cf14f40b
+   > cat 398bc9c2aeeab4cb0c12ada0f52eea12cf14f40b
 4. Install this tool or build it from source
 5. When the tool asks, enter the values from the RestrictionsPasswordKey field and the RestrictionsPasswordSalt field
 
