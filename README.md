@@ -2,11 +2,11 @@
 
 A tool for finding a lost iOS restrictions passcode. I wrote this using Go (golang) v1.6
 
-To find your forgotten passcode on iOS, do the following:
+To find your forgotten passcode on iOS, do the following (note: iOS uses pdkdf2-hmac-sha1):
 
 1. Backup your device on your Mac, make sure to use a Non-Encrypted backup
 2. Navicate to this directory on the filesystem: 
-  * > cd /Users/<username>/Library/Application Support/MobileSync/Backup/<latest backup folder>
+  * > cd /Users/username/Library/Application Support/MobileSync/Backup/latest backup folder
 3. Open or cat the following file 
   * > cat 398bc9c2aeeab4cb0c12ada0f52eea12cf14f40b
 4. Install this tool or build it from source
